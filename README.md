@@ -1,8 +1,8 @@
-Mac Computer Information and Status GUI
+**Mac Computer Information and Status GUI**
 
 This is a Python application with a graphical user interface (GUI) built using Tkinter. The application retrieves and displays various system information and statuses for a macOS computer.
 
-Features
+**Features**
 - System Sharing Name: Retrieves and displays the macOS system sharing name.
 - Active Directory Status: Checks if the host is bound to an Active Directory domain.
 - Host Name: Retrieves and displays the macOS host name.
@@ -19,29 +19,25 @@ Features
 - Bomgar Test: Opens the remote.nau.edu URL in Safari.
 - WiFi Information: Retrieves and displays WiFi connection information.
 
-Installation
+**Installation**
 Ensure you have Python 3 installed.
 Install the required libraries:
 bash
 Copy code
 pip install tk
 
-Usage
+**Usage**
 Clone this repository to your local machine.
 Navigate to the directory containing the script.
 
-Run the script:
-bash
-Copy code
 
-Script Overview
-
-GUI Components
+**Script Overview**
+**GUI Components**
 Labels and Entries: Display system information such as system sharing name, Active Directory status, host name, LAPS status, ATP status, and WiFi information.
 ScrolledText: Displays the list of admin users and available system updates.
 Buttons: Provide functionality to refresh data, add admins, open System Preferences, run Jamf commands, open Microsoft Defender, run Cisco Secure Client, and test Bomgar.
 
-Functions
+**Functions**
 update_components: Refreshes all the displayed components with the latest system information.
 get_system_sharing_name: Retrieves the macOS system sharing name using scutil.
 get_host_name: Retrieves the macOS host name using hostname.
@@ -59,6 +55,6 @@ open_safari_with_url: Opens Safari and navigates to a specified URL.
 bomgar: Opens the remote.nau.edu URL in Safari.
 get_wifi_information: Retrieves and displays WiFi connection information.
 
-Notes
+**Notes**
 This script uses subprocess to run various macOS commands and retrieve system information.
 Some functions require administrator privileges and may prompt for the admin password.
