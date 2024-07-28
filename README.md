@@ -1,4 +1,4 @@
-#Mac Computer Information and Status GUI
+Mac Computer Information and Status GUI
 
 This is a Python application with a graphical user interface (GUI) built using Tkinter. The application retrieves and displays various system information and statuses for a macOS computer.
 
